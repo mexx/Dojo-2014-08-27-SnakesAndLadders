@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SnakesAndLadders", "SnakesAndLadders.fsproj", "{D12FFD0B-6504-4DDD-979A-6A1BC59EAC43}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "SnakesAndLadders.Tests", "..\SnakesAndLadders.Tests\SnakesAndLadders.Tests.fsproj", "{408765EC-5136-4DCF-841C-995D25B3C2BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D12FFD0B-6504-4DDD-979A-6A1BC59EAC43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D12FFD0B-6504-4DDD-979A-6A1BC59EAC43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D12FFD0B-6504-4DDD-979A-6A1BC59EAC43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D12FFD0B-6504-4DDD-979A-6A1BC59EAC43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{408765EC-5136-4DCF-841C-995D25B3C2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{408765EC-5136-4DCF-841C-995D25B3C2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{408765EC-5136-4DCF-841C-995D25B3C2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{408765EC-5136-4DCF-841C-995D25B3C2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

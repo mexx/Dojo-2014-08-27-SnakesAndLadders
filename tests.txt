@@ -1,0 +1,16 @@
+Validierung der Felddefinition
+    Feldgröße > 0
+    Leiterstart > 0
+    Leiterstart < Feldgröße
+    Leiterende > Leiterstart
+    Leiterende <= Feldgröße
+    Schlangenkopf > 1
+    Schlangenkopf < Feldgröße
+    Schlangenende > 0
+    Schlangenende < Schlangenkopf
+
+Eingabevalidierung des Würfels
+Wenn Aktuelle Position + Augenzahl ist größer als Feldgröße, dann Neue Position = Aktuelle Position
+Wenn Aktuelle Position + Augenzahl ist kein Leiterstart oder Schlangenkopf, dann Neue Position = Aktuelle Position + Augenzahl
+Wenn Aktuelle Position + Augenzahl ist ein Leiterstart, dann Neue Position = Leiterende
+Wenn Aktuelle Position + Augenzahl ist ein Schlangenkopf, dann Neue Position = Schlangenende
